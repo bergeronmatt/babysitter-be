@@ -2,7 +2,7 @@
 const express = require('express');
 
 // set up server object
-const server = expres();
+const server = express();
 
 // set up server to use JSON
 server.use(express.json());
