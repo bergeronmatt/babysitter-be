@@ -11,8 +11,9 @@ The api will be running on localhost:4000
 Make a post request to localhost:4000/api/payment with the following JSON format:
 
 {
-    "amount": (amount * 100),
-    "id": id
+    <br/>
+    "amount": (amount * 100),<br/>
+    "id": id<br/>
 }
 
 The amount in the post request will need to be multiplied by 100 in order to be turned from a cent value into a dollar value for
