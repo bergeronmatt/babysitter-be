@@ -4,8 +4,12 @@ const express = require('express');
 // set up server object
 const server = express();
 
+// set up cors
+const cors = require('cors');
+
 // set up server to use JSON
 server.use(express.json());
+server.use(cors());
 
 // Import Routers
 // TODO: add payment router
